@@ -18,7 +18,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
-          
+          plugin_gists: yes
+
+
   metrics-achievements:
     runs-on: ubuntu-latest
     steps:
@@ -33,3 +35,18 @@ jobs:
           plugin_achievements_secrets: yes       # Display unlocked secrets achievements
           plugin_achievements_ignored: octonaut  # Hide octonaut achievement
           plugin_achievements_limit: 0           # Display all unlocked achievement matching threshold and secrets params
+
+  mild-facts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mildly interesting facts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.facts.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_timezone: Asia/Calcutta
+
