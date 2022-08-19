@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages: yes
-          plugin_languages_details: lines, bytes-size
+          plugin_languages_details: bytes-size, percentage
           
   metrics-achievements:
     runs-on: ubuntu-latest
