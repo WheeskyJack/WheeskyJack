@@ -8,6 +8,9 @@
 
 
 ![Metrics1](/metrics.plugin.achievements.svg)
+
+
+![Metrics2](/metrics.plugin.habits.facts.svg)
 <!---
 WheeskyJack/WheeskyJack is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
