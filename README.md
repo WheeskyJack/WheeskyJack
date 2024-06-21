@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @WheeskyJack
 - 👀 I’m interested in cloud technologies
 - 🌱 I’m currently learning golang
-- 💞️ I’m looking to collaborate on projects in golang
+- 💞️ I’m actively seeking collaboration opportunities on Go projects
 
 
 ![Metrics](/github-metrics.svg)
